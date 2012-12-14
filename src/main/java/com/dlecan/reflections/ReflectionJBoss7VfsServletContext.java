@@ -11,8 +11,11 @@ public class ReflectionJBoss7VfsServletContext implements
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
 
+        sce.getServletContext().log("JBoss VFS initialisation for Play applications...");
+
 		ReflectionJBoss7Vfs.initVfs();
 
+        sce.getServletContext().log("JBoss VFS initialisation for Play applications done.");
 	}
 
 	@Override
