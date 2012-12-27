@@ -7,7 +7,7 @@
 	</parent>
 	<groupId>com.dlecan.reflections</groupId>
 	<artifactId>jboss7-vfs-integration</artifactId>
-	<version>1.0.3</version>
+	<version>1.0.4-SNAPSHOT</version>
 	<name>JBoss 7 VFS integration with org.reflections frameworks</name>
 	<description>Integration between JBoss 7 and org.reflections framework.</description>
 	<url>https://github.com/dlecan/jboss7-reflections-vfs-integration</url>
@@ -74,7 +74,7 @@
 		<connection>scm:git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</connection>
 		<developerConnection>scm:git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</developerConnection>
 		<url>git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</url>
-	  	<tag>jboss7-vfs-integration-1.0.3</tag>
+	  	<tag>HEAD</tag>
 	</scm>
 
 </project>
