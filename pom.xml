@@ -4,6 +4,22 @@
 	<artifactId>jboss7-vfs-integration</artifactId>
 	<version>1.0.3-SNAPSHOT</version>
 	<name>JBoss 7 VFS integration with org.reflections frameworks</name>
+	<description>Integration between JBoss 7 and org.reflections framework.</description>
+	<url>https://github.com/dlecan/jboss7-reflections-vfs-integration</url>
+	<licenses>
+		<license>
+		  <name>The Apache Software License, Version 2.0</name>
+		  <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		  <distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+		  <id>dlecan</id>
+		  <name>Damien Lecan</name>
+		  <email>dev@dlecan.com</email>
+		</developer>
+	</developers>
 
 	<build>
 
@@ -59,10 +75,10 @@
 	</dependencies>
 	<scm>
 		<connection>scm:git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</connection>
-		<url>git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</url>
 		<developerConnection>scm:git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+		<url>git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</url>
+	  	<tag>HEAD</tag>
+	</scm>
 
 	<distributionManagement>
 		<repository>
