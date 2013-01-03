@@ -6,10 +6,11 @@
 		<version>7</version>
 	</parent>
 	<groupId>com.dlecan.reflections</groupId>
-	<artifactId>jboss7-vfs-integration</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
-	<name>JBoss 7 VFS integration with org.reflections frameworks</name>
-	<description>Integration between JBoss 7 and org.reflections framework.</description>
+	<artifactId>jboss7-vfs-integration-parent</artifactId>
+	<version>1.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Parent :: JBoss 7 VFS integration with org.reflections frameworks</name>
+	<description>Parent project :: Integration between JBoss 7 and org.reflections framework.</description>
 	<url>https://github.com/dlecan/jboss7-reflections-vfs-integration</url>
 	<licenses>
 		<license>
@@ -25,6 +26,11 @@
 		  <email>dev@dlecan.com</email>
 		</developer>
 	</developers>
+
+	<modules>
+		<module>jboss7-reflections-vfs-integration-core</module>
+		<module>jboss7-vfs-integration-servlet3x</module>
+	</modules>
 
 	<build>
 
@@ -47,29 +53,6 @@
 		</plugins>
 
 	</build>
-
-	<dependencies>
-
-		<dependency>
-			<groupId>org.reflections</groupId>
-			<artifactId>reflections</artifactId>
-			<version>0.9.8</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.jboss</groupId>
-			<artifactId>jboss-vfs</artifactId>
-			<version>3.0.1.GA</version>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
 	<scm>
 		<connection>scm:git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</connection>
 		<developerConnection>scm:git:git@github.com:dlecan/jboss7-reflections-vfs-integration.git</developerConnection>
