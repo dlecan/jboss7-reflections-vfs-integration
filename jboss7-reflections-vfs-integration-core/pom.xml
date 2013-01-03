@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.dlecan.reflections</groupId>
 		<artifactId>jboss7-reflections-vfs-integration-parent</artifactId>
-		<version>1.1.0</version>
+		<version>1.1.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>jboss7-reflections-vfs-integration-core</artifactId>
 	<name>Core :: JBoss 7 VFS integration with org.reflections frameworks</name>
