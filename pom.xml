@@ -6,7 +6,7 @@
 		<version>7</version>
 	</parent>
 	<groupId>com.dlecan.reflections</groupId>
-	<artifactId>jboss7-vfs-integration-parent</artifactId>
+	<artifactId>jboss7-reflections-vfs-integration-parent</artifactId>
 	<version>1.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Parent :: JBoss 7 VFS integration with org.reflections frameworks</name>
@@ -29,7 +29,7 @@
 
 	<modules>
 		<module>jboss7-reflections-vfs-integration-core</module>
-		<module>jboss7-vfs-integration-servlet3x</module>
+		<module>jboss7-reflections-vfs-integration-servlet3x</module>
 	</modules>
 
 	<build>
